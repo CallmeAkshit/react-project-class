@@ -1,13 +1,132 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 607px;
+  left: 0px;
+  top: 0px;
+  background: #2F2E41;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.headerText {
+  position: absolute;
+  width: 835px;
+  height: 88px;
+  left: 100px;
+  top: 200px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  color: #FFFFFF;
+
+}
+
+.bar-top {
+  position: absolute;
+  width: 1340px;
+  height: 2px;
+  left: 50px;
+  top: 783px;
+  background: #D0CDE1;
+}
+
+.bar-bottom {
+  position: absolute;
+  width: 1340px;
+  height: 2px;
+  left: 50px;
+  top: 1887px;
+  background: #D0CDE1;
+}
+
+.exploreText {
+position: absolute;
+width: 671px;
+height: 76px;
+left: 385px;
+top: 657px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 76px;
+
+color: #3F3D56;
+
+}
+
+.couldnotfind {
+  position: absolute;
+width: 695px;
+height: 61px;
+left: 375px;
+top: 1939px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+
+color: #3F3D56;
+}
+
+.footer {
+  position: absolute;
+width: 1440px;
+height: 96px;
+left: 0px;
+top: 2162px;
+
+background: #3F3D56;
+}
+
+.button {
+  position: absolute;
+width: 456px;
+height: 82px;
+left: 486px;
+top: 2030px;
+
+background: #7C639F;
+border-radius: 15px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+.search-inner {
+  position: absolute;
+  width: 709px;
+  height: 62px;
+  left: 328px;
+  top: 845px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.search-outer {
+  position: absolute;
+  width: 821px;
+  height: 82px;
+  left: 310px;
+  top: 835px;
+  background: #D0CDE1;
+  border-radius: 15px;
+}
+
+.manImage {
+  position: absolute;
+width: 605px;
+height: 468px;
+left: 764px;
+top: 79px;
+
 }
